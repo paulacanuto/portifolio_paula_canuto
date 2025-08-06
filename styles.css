@@ -1,0 +1,169 @@
+/* Importação da fonte está no HTML */
+body {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  background-color: #0d0d0d;
+  color: #d1d1ff;
+}
+
+.img_profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #bb86fc;
+    animation: pulse 3s infinite;
+}
+
+/* Estilo para a logo */
+.logo {
+  max-width: 120px;
+  margin-bottom: 1rem;
+  animation: pulse 3s infinite;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.header {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(145deg, #1f004f, #0a0022);
+  color: #00ffff;
+  box-shadow: 0 0 20px #00ffff;
+}
+
+.header h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.header p {
+  font-size: 1.2rem;
+  color: #d1d1ff;
+}
+
+.navbar {
+  background-color: #1a1a1a;
+  border-top: 2px solid #6200ea;
+  border-bottom: 2px solid #6200ea;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 1rem 0;
+  gap: 2rem;
+}
+
+.navbar a {
+  color: #bb86fc;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #00e5ff;
+}
+
+/*Estilo dinâmico para o link ativo*/
+.navbar a.active {
+  color: #00e5ff;
+  text-shadow: 0 0 10px #00e5ff;
+}
+
+section {
+  margin: 4rem 0;
+}
+
+h2 {
+  color: #00e5ff;
+  border-bottom: 2px solid #bb86fc;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+ul li {
+  margin: 0.5rem 0;
+}
+
+.social-links {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.social-links a {
+  color: #bb86fc;
+  text-decoration: none;
+  border: 1px solid #bb86fc;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+  background-color: #00e5ff;
+  color: #0d0d0d;
+  border-color: #00e5ff;
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: #1a1a1a;
+  color: #888;
+  font-size: 0.9rem;
+  border-top: 1px solid #333;
+}
+
+
+/* Estilo para a seção do GIF */
+.gif {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.gif-preview {
+  max-width: 80%;
+  border: 2px solid #bb86fc;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #6200ea;
+  margin-top: 1rem;
+}
+
+/* Estilo para a seção do vídeo */
+.video {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.video-preview {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #00e5ff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #00e5ff;
+  margin-top: 1rem;
+}
+
+/* Animação sutil na logo */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    filter: drop-shadow(0 0 0px #00e5ff);
+  }
+  50% {
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 10px #00e5ff);
+  }
+  100% {
+    transform: scale(1);
+    filter: drop-shadow(0 0 0px #00e5ff);
+  }
+}
