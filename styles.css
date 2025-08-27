@@ -13,14 +13,6 @@ body {
   color: #d1d1ff;
 }
 
-.container {
-  display: flex;
- /* align-itens: center;*/
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 2rem;
-}
-
 .img_profile {
     width: 200px;
     height: 200px;
@@ -101,6 +93,14 @@ ul li {
   margin: 0.5rem 0;
 }
 
+.container {
+  display: flex;
+ /* align-itens: center;*/
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
 .social-links {
   display: flex;
   gap: 1.5rem;
@@ -176,6 +176,7 @@ ul li {
     filter: drop-shadow(0 0 0px #00e5ff);
   }
 }
+
 
 
 
