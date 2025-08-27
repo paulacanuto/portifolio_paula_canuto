@@ -13,6 +13,14 @@ body {
   color: #d1d1ff;
 }
 
+.container {
+  display: flex;
+  align-itens: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
 .img_profile {
     width: 200px;
     height: 200px;
@@ -26,14 +34,6 @@ body {
   max-width: 120px;
   margin-bottom: 1rem;
   animation: pulse 3s infinite;
-}
-
-.container {
-  display: flex;
-  align-itens: center;
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 2rem;
 }
 
 .header {
@@ -176,6 +176,7 @@ ul li {
     filter: drop-shadow(0 0 0px #00e5ff);
   }
 }
+
 
 
 
