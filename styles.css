@@ -28,6 +28,12 @@ body {
   animation: pulse 3s infinite;
 }
 
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
 .header {
   text-align: center;
   padding: 3rem 1rem;
@@ -91,13 +97,6 @@ h2 {
 
 ul li {
   margin: 0.5rem 0;
-}
-
-.container {
-  display: flex;
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 2rem;
 }
 
 .social-links {
@@ -175,11 +174,3 @@ ul li {
     filter: drop-shadow(0 0 0px #00e5ff);
   }
 }
-
-
-
-
-
-
-
-
