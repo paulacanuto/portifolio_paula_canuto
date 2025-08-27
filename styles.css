@@ -95,7 +95,6 @@ ul li {
 
 .container {
   display: flex;
- /* align-itens: center;*/
   max-width: 1000px;
   margin: 0 auto;
   padding: 2rem;
@@ -176,6 +175,7 @@ ul li {
     filter: drop-shadow(0 0 0px #00e5ff);
   }
 }
+
 
 
 
