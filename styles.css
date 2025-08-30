@@ -102,6 +102,7 @@ ul li {
 
 .social-links {
   display: flex;
+  justify-content: space-between;
   gap: 1.5rem;
   margin-top: 1rem;
 }
@@ -175,5 +176,6 @@ ul li {
     filter: drop-shadow(0 0 0px #00e5ff);
   }
 }
+
 
 
