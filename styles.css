@@ -35,6 +35,7 @@ body {
 }
 
 .header {
+  display: flex;
   text-align: center;
   padding: 3rem 1rem;
   background: linear-gradient(145deg, #1f004f, #0a0022);
@@ -174,6 +175,7 @@ ul li {
     filter: drop-shadow(0 0 0px #00e5ff);
   }
 }
+
 
 
 
