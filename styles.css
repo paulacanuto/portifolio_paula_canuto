@@ -14,8 +14,8 @@ body {
 }
 
 .img_profile {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     border: 5px solid #bb86fc;
     animation: pulse 3s infinite;
@@ -137,7 +137,7 @@ ul li {
 }
 
 .gif-preview {
-  max-width: 100%;
+  max-width: 80%;
   border: 2px solid #bb86fc;
   border-radius: 10px;
   box-shadow: 0 0 20px #6200ea;
@@ -174,4 +174,5 @@ ul li {
     filter: drop-shadow(0 0 0px #00e5ff);
   }
 }
+
 
