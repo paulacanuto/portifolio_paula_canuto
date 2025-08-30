@@ -29,7 +29,6 @@ body {
 }
 
 .container {
-  display: flex;
   max-width: 1000px;
   margin: 0 auto;
   padding: 2rem;
@@ -138,7 +137,7 @@ ul li {
 }
 
 .gif-preview {
-  max-width: 100%;
+  max-width: 150%;
   border: 2px solid #bb86fc;
   border-radius: 10px;
   box-shadow: 0 0 20px #6200ea;
@@ -175,13 +174,3 @@ ul li {
     filter: drop-shadow(0 0 0px #00e5ff);
   }
 }
-
-
-
-
-
-
-
-
-
-
