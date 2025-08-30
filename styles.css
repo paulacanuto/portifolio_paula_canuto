@@ -100,14 +100,14 @@ ul li {
   margin: 0.5rem 0;
 }
 
-.social-links {
+.social__links {
   display: flex;
   justify-content: space-between;
   gap: 1.5rem;
   margin-top: 1rem;
 }
 
-.social-links__a {
+.social__links__a {
   color: #bb86fc;
   text-decoration: none;
   border: 1px solid #bb86fc;
@@ -116,7 +116,7 @@ ul li {
   transition: all 0.3s ease;
 }
 
-.social-links__a:hover {
+.social__links__a:hover {
   background-color: #00e5ff;
   color: #0d0d0d;
   border-color: #00e5ff;
@@ -176,6 +176,7 @@ ul li {
     filter: drop-shadow(0 0 0px #00e5ff);
   }
 }
+
 
 
 
