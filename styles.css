@@ -35,8 +35,8 @@ body {
 }
 
 .header {
-  height: 100%;
   display: flex;
+   flex-wrap: wrap;
   text-align: center;
   padding: 3rem 1rem;
   background: linear-gradient(145deg, #1f004f, #0a0022);
@@ -105,7 +105,6 @@ ul li {
 }
 
 .social-links {
-  height: 100%;
   display: flex;
   flex-wrap: wrap;
   align-content: center;
@@ -182,6 +181,7 @@ ul li {
     filter: drop-shadow(0 0 0rem #00e5ff);
   }
 }
+
 
 
 
