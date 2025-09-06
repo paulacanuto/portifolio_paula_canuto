@@ -14,8 +14,8 @@ body {
 }
 
 .img_profile {
-    width: 15.6rem;
-    height: 15.6rem;
+    width: 15%;
+    /*/height: 15.6rem;*/
     border-radius: 50%;
     border: 0.3125rem solid #bb86fc;
     animation: pulse 3s infinite;
@@ -138,7 +138,7 @@ ul li {
 }
 
 .gif-preview {
-  max-width: 100%;
+  max-width: 70%;
   border: 0.125rem solid #bb86fc;
   border-radius: 0.625rem;
   box-shadow: 0 0 1.25rem #6200ea;
@@ -175,6 +175,7 @@ ul li {
     filter: drop-shadow(0 0 0rem #00e5ff);
   }
 }
+
 
 
 
