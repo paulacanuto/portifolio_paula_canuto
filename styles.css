@@ -14,7 +14,7 @@ body {
 }
 
 .img_profile {
-    width: 40%;
+    width: 30%;
     /*height: 15.6rem;*/
     border-radius: 50%;
     border: 0.3125rem solid #bb86fc;
@@ -29,7 +29,7 @@ body {
 }
 
 .container {
-  width: 100%;
+  max-width: 62.5rem;
   margin: 0 auto;
   padding: 2rem;
 }
@@ -181,6 +181,7 @@ ul li {
     filter: drop-shadow(0 0 0rem #00e5ff);
   }
 }
+
 
 
 
