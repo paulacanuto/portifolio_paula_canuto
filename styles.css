@@ -144,7 +144,7 @@ ul li {
 }
 
 .gif-preview {
-  max-width: 50%;
+  max-width: 30%;
   border: 0.125rem solid #bb86fc;
   border-radius: 0.625rem;
   box-shadow: 0 0 1.25rem #6200ea;
@@ -181,6 +181,7 @@ ul li {
     filter: drop-shadow(0 0 0rem #00e5ff);
   }
 }
+
 
 
 
